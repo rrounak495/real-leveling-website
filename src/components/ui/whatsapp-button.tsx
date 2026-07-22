@@ -6,14 +6,18 @@ import { MessageCircle } from "lucide-react";
 export function WhatsAppButton() {
   return (
     <motion.a
-      href="https://wa.me/919309775855"
+      href="https://wa.me/919309775855?text=Hi%20REAL%20LEVELING%20Team!%20I%20found%20your%20website%20and%20would%20like%20to%20know%20more%20about%20the%20app."
       target="_blank"
       rel="noopener noreferrer"
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       transition={{ delay: 1, type: "spring", stiffness: 260, damping: 20 }}
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.9 }}
+      whileHover={{ 
+        scale: 1.08, 
+        boxShadow: "0px 0px 20px rgba(34, 197, 94, 0.4)",
+        transition: { duration: 0.2, ease: "easeInOut" }
+      }}
+      whileTap={{ scale: 0.95 }}
       className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-black border border-white/20 rounded-full shadow-2xl overflow-hidden group"
       aria-label="Chat with us on WhatsApp"
     >

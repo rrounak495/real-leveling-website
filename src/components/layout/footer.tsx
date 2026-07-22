@@ -7,9 +7,9 @@ import { FaLinkedin, FaInstagram, FaXTwitter, FaFacebook, FaYoutube } from "reac
 
 export function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-black/40 py-12 relative overflow-hidden">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="border-t border-white/10 bg-black/40 py-12 relative z-20 overflow-hidden pointer-events-auto">
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent pointer-events-none" />
+      <div className="container relative z-10 mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="col-span-1 md:col-span-2">
           <Link href="/" className="flex items-center gap-3 mb-4">
             <div className="relative w-8 h-8 rounded-lg overflow-hidden">
@@ -77,11 +77,12 @@ export function Footer() {
         </div>
       </div>
       
-      <div className="container mx-auto px-4 mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
-        <p>&copy; {new Date().getFullYear()} Real Leveling. All rights reserved.</p>
+      <div className="container relative z-10 mx-auto px-4 mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
+        <p>&copy; 2026 REAL LEVELING. All Rights Reserved.</p>
         <div className="flex gap-4">
-          <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+          <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
           <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+          <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
         </div>
       </div>
     </footer>
