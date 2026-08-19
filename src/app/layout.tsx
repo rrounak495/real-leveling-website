@@ -17,11 +17,11 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "REAL LEVELING | AI Powered Self Improvement App",
-  description: "Turn your real life into a game with AI. Build habits. Earn XP. Improve fitness, productivity and discipline.",
+  title: "REAL LEVELING | Self Improvement App",
+  description: "Turn your real life into a game. Build habits. Earn XP. Improve fitness, productivity and discipline.",
   openGraph: {
-    title: "REAL LEVELING | AI Powered Self Improvement App",
-    description: "Turn your real life into a game with AI. Build habits. Earn XP. Improve fitness, productivity and discipline.",
+    title: "REAL LEVELING | Self Improvement App",
+    description: "Turn your real life into a game. Build habits. Earn XP. Improve fitness, productivity and discipline.",
     url: "https://realleveling.com",
     siteName: "REAL LEVELING",
     images: [
@@ -36,14 +36,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "REAL LEVELING | AI Powered Self Improvement App",
-    description: "Turn your real life into a game with AI. Build habits. Earn XP. Improve fitness, productivity and discipline.",
+    title: "REAL LEVELING | Self Improvement App",
+    description: "Turn your real life into a game. Build habits. Earn XP. Improve fitness, productivity and discipline.",
     images: ["https://realleveling.com/logo.png"],
-  },
-  icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
   },
 };
 
