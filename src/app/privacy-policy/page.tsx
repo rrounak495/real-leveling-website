@@ -15,114 +15,150 @@ export default function PrivacyPolicy() {
         <div className="prose prose-invert prose-indigo mx-auto prose-headings:font-heading prose-headings:font-bold prose-a:text-primary">
           <h1 className="text-4xl md:text-5xl font-black mb-8 text-white tracking-tight">Privacy Policy</h1>
           <p className="text-muted-foreground mb-12">
-            Effective Date: July 22, 2026<br />
-            Last Updated: July 22, 2026
+            Effective Date: September 13, 2026<br />
+            Last Updated: September 13, 2026<br />
+            Version: 2.0
           </p>
           
           <div className="space-y-8 text-white/80 leading-relaxed">
-            <section>
-              <h2 className="text-2xl text-white mb-4">1. Introduction</h2>
-              <p>
-                Welcome to REAL LEVELING, a gamified fitness and self-improvement platform. 
-                We are committed to protecting your personal information and your right to privacy. 
-                If you have any questions or concerns about this privacy notice, or our practices with 
-                regards to your personal information, please contact us at support@realleveling.com.
-              </p>
-            </section>
+            <p>
+              Welcome to <strong>REAL LEVELING</strong> ("we," "our," or "us"). We are an independent project operated by its founders, Rounak Indal Rathod and Sagar Jha, based in CBD Belapur, Maharashtra, India. We are committed to protecting your personal information and your right to privacy.
+            </p>
+            <p>
+              This Privacy Policy explains how we collect, use, and share your information when you use our mobile application (the "App") and our website at https://realleveling.com (collectively, the "Services").
+            </p>
+            <p>
+              If you have any questions or concerns about this policy, please contact us at <strong>rrounak495@gmail.com</strong>.
+            </p>
 
             <section>
-              <h2 className="text-2xl text-white mb-4">2. Information We Collect</h2>
-              <p>
-                We collect personal information that you voluntarily provide to us when you register on the 
-                Services, express an interest in obtaining information about us or our products and Services, 
-                when you participate in activities on the Services (such as completing fitness quests), or otherwise 
-                when you contact us.
-              </p>
-              <ul className="list-disc pl-6 mt-4 space-y-2">
-                <li><strong>Personal Information:</strong> Names, email addresses, usernames, and passwords.</li>
-                <li><strong>Health & Fitness Data:</strong> Workout logs, completed quests, habits, goals, progress, and other fitness information voluntarily provided by the user.</li>
-                <li><strong>Usage Data:</strong> Information on how you interact with our app, including XP gained, levels achieved, and feature usage.</li>
+              <h2 className="text-2xl text-white mb-4">1. Information We Collect</h2>
+              
+              <h3 className="text-xl text-white mt-6 mb-2">Account Information</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li><strong>Email & Password:</strong> If you register directly, we collect your email address and a securely hashed password via our authentication provider.</li>
+                <li><strong>Google Sign-In:</strong> If you choose "Continue with Google," we receive your basic Google account information (name, email, profile picture) via Google's authentication service to create and access your account.</li>
+              </ul>
+
+              <h3 className="text-xl text-white mt-6 mb-2">Profile & Preference Information</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Your chosen username, display name, gender, bio, country, and timezone.</li>
+                <li>Fitness preferences you provide: your fitness goal, experience level, training location preference, and available daily time.</li>
+                <li>Optional body metrics you may choose to enter: current weight and goal weight (used only to personalize your in-app fitness missions; never shared publicly).</li>
+              </ul>
+
+              <h3 className="text-xl text-white mt-6 mb-2">Photos You Upload</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li><strong>Profile Picture:</strong> Photos you choose from your gallery for your profile avatar.</li>
+                <li><strong>Social Feed Posts:</strong> Photos you choose to attach to posts, selected either from your camera or your photo gallery, if you use this feature. We request camera/gallery access only at the moment you choose to add a photo — never in the background.</li>
+              </ul>
+
+              <h3 className="text-xl text-white mt-6 mb-2">App Activity & Progression</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Your in-app progress: level, XP, coins, gems, achievements, streaks, and inventory items.</li>
+                <li>Missions and workout tasks you accept or complete (all fitness/workout data is self-reported by you within the App — we do not access external health apps or sensors).</li>
+                <li>Boss battle participation, personal records, and reward history.</li>
+              </ul>
+
+              <h3 className="text-xl text-white mt-6 mb-2">Social Activity</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Friends, followers, and any users you block or report.</li>
+                <li>Feed posts, comments, and reactions you create.</li>
+                <li>Leaderboard rankings and rival pairings.</li>
+              </ul>
+
+              <h3 className="text-xl text-white mt-6 mb-2">Push Notification Data</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>A device notification token, used solely to deliver push notifications relevant to your missions, achievements, and social activity.</li>
+              </ul>
+
+              <h3 className="text-xl text-white mt-6 mb-2">Support Communications</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Any messages, subject lines, or category information you provide when you contact our support team through the App.</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-2xl text-white mb-4">3. How We Use Information</h2>
-              <p>We use personal information collected via our Services for a variety of business purposes described below:</p>
-              <ul className="list-disc pl-6 mt-4 space-y-2">
-                <li>To facilitate account creation and logon process.</li>
-                <li>To manage user accounts and provide you with personalized leveling metrics.</li>
-                <li>To send administrative information to you regarding your account or quests.</li>
-                <li>To manage user accounts and provide the Services.</li>
-                <li>To protect our Services from fraudulent activity.</li>
+              <h2 className="text-2xl text-white mb-4">2. Information We DO NOT Collect</h2>
+              <p>We do <strong>not</strong> collect:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Your precise GPS location.</li>
+                <li>Data from Google Fit, Apple Health, or any other third-party health/fitness platform.</li>
+                <li>Payment or credit card information — in-app currency (coins, gems) is currently earned only through in-app activity and is never purchased with real money.</li>
+                <li>Advertising identifiers — the App does not display third-party advertisements.</li>
+                <li>Any data through third-party analytics or crash-reporting tools — we do not currently use any such services.</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-2xl text-white mb-4">4. Data Storage & Security</h2>
-              <p>
-                We use administrative, technical, and physical security measures to help protect your personal 
-                information. While we have taken reasonable steps to secure the personal information you provide 
-                to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, 
-                and no method of data transmission can be guaranteed against any interception or other type of misuse.
-              </p>
+              <h2 className="text-2xl text-white mb-4">3. How We Use Your Information</h2>
+              <p>We use your information to:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Create and secure your account, and keep you signed in.</li>
+                <li>Operate core App features: generate missions, calculate XP/levels, and run boss battles.</li>
+                <li>Show your username, avatar, and activity to other users where the App's social features are designed to be public (e.g., leaderboards, friend lists, feed).</li>
+                <li>Send you push notifications about your progress, social activity, or important updates.</li>
+                <li>Respond to your support requests and fix bugs.</li>
+                <li>Detect and prevent cheating, abuse, or violations of our Terms & Conditions.</li>
+              </ul>
             </section>
 
             <section>
-              <h2 className="text-2xl text-white mb-4">5. Cookies and Similar Technologies</h2>
-              <p>
-                We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store 
-                information. This helps us analyze app usage, maintain your session, and remember your preferences 
-                (such as your selected hunter class). You can control cookies through your browser settings.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl text-white mb-4">6. Third Party Services</h2>
-              <p>
-                We may share your data with third-party vendors, service providers, contractors, or agents who perform 
-                services for us or on our behalf and require access to such information to do that work. This includes 
-                cloud hosting providers and email delivery services. We do not sell your personal 
-                information to third parties.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl text-white mb-4">7. User Rights</h2>
-              <p>
-                Depending on where you reside, you may have the right to request access to the personal information we 
-                collect from you, change that information, or delete it in some circumstances. To request to review, 
-                update, or delete your personal information, please email us at the contact address provided below.
-              </p>
+              <h2 className="text-2xl text-white mb-4">4. How We Share Your Information</h2>
+              <p>We only share your information with:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li><strong>Service Providers:</strong> Supabase (our backend database, authentication, and file storage provider) and Expo (our push notification delivery service).</li>
+                <li><strong>Google:</strong> Solely to process "Continue with Google" sign-in.</li>
+                <li><strong>Other Users:</strong> Information you've made part of your public profile or social activity (username, avatar, level, posts) is visible to other users of the App, as intended by these features.</li>
+                <li><strong>Legal Requirements:</strong> If required by law, court order, or governmental request.</li>
+              </ul>
               <p className="mt-4">
-                Users may request deletion of their account and associated personal data by contacting our support email.
+                We do not sell your personal information to anyone, for any purpose.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl text-white mb-4">8. Children's Privacy</h2>
+              <h2 className="text-2xl text-white mb-4">5. Data Retention</h2>
               <p>
-                We do not knowingly solicit data from or market to children under 13 years of age. By using the Services, 
-                you represent that you are at least 13 or that you are the parent or guardian of such a minor and consent 
-                to such minor dependent’s use of the Services.
+                We retain your information for as long as your account remains active. If you delete your account, your data is permanently removed from our active database (see Section 6). Encrypted backups may be retained briefly for disaster-recovery purposes, in line with our infrastructure provider's standard practices, and are not used for any other purpose.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl text-white mb-4">9. Changes to this Policy</h2>
+              <h2 className="text-2xl text-white mb-4">6. Account Deletion</h2>
               <p>
-                We may update this privacy notice from time to time. The updated version will be indicated by an updated 
-                "Revised" date and the updated version will be effective as soon as it is accessible. We encourage you to 
-                review this privacy notice frequently to be informed of how we are protecting your information.
+                You can permanently delete your account and all associated data at any time from within the App: go to <strong>Settings → Delete Account</strong>. This action is irreversible and immediately and permanently removes your authentication record, profile, progression, and all social data from our active database. You may also request deletion by emailing <strong>reallevling@gmail.com</strong>.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl text-white mb-4">10. Contact Information</h2>
+              <h2 className="text-2xl text-white mb-4">7. Children's Privacy</h2>
               <p>
-                If you have questions or comments about this notice, you may email us at:
+                REAL LEVELING is not directed at children under the age of 13, and we do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us so we can promptly delete it.
               </p>
-              <p className="mt-4 font-bold text-primary">
-                support@realleveling.com
+            </section>
+
+            <section>
+              <h2 className="text-2xl text-white mb-4">8. Your Rights</h2>
+              <p>
+                Depending on your location, you may have the right to access, correct, or delete your personal information. You can update most of your information directly within the App's settings, or contact us at <strong>rrounak495@gmail.com</strong> for any request we can't yet handle in-app.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl text-white mb-4">9. Changes to This Policy</h2>
+              <p>
+                We may update this Privacy Policy from time to time. If we make material changes, we will update the "Last Updated" date above and, where appropriate, notify you within the App.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl text-white mb-4">10. Contact Us</h2>
+              <p>For any privacy-related inquiries, please contact:</p>
+              <p className="mt-4">
+                <strong>Privacy Email:</strong> rrounak495@gmail.com<br />
+                <strong>Support Email:</strong> reallevling@gmail.com<br />
+                <strong>Operations:</strong> CBD Belapur, Maharashtra, India
               </p>
             </section>
           </div>
