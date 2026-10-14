@@ -64,7 +64,7 @@ export default function DeleteAccountPage() {
                 <li><strong>Profile Information:</strong> Username, display name, avatar preferences, bio, gender, and regional preferences.</li>
                 <li><strong>Progression & Game Data:</strong> Hunter level, total XP, rank, streaks, coins, gems, achievements, and quest history.</li>
                 <li><strong>Workout & Activity Records:</strong> Completed tasks, personal records, and boss battle contributions.</li>
-                <li><strong>Uploaded Media:</strong> Custom profile photos and social feed post images stored in our media storage buckets.</li>
+                <li><strong>Uploaded Media:</strong> Custom profile avatar images and any user-uploaded files stored in our cloud storage buckets.</li>
                 <li><strong>Social Connections:</strong> Friend lists, friend requests, feed posts, comments, reactions, reports, and blocks.</li>
                 <li><strong>Push Notification Tokens:</strong> Registered device tokens and notification preferences.</li>
               </ul>
@@ -73,7 +73,10 @@ export default function DeleteAccountPage() {
             <section>
               <h2 className="text-2xl text-white mb-4">Data Retention Policy</h2>
               <p>
-                As stated in Section 5 of our Privacy Policy, we retain your information only for as long as your account remains active. Once deleted, your data is permanently removed from our active database. Encrypted backups maintained by our infrastructure provider for disaster-recovery purposes are retained briefly in line with standard cloud operational practices and are automatically overwritten.
+                As stated in Section 5 of our Privacy Policy, we retain your personal and gameplay information only for as long as your account remains active. Once deleted, your data is permanently removed from our active database and storage buckets. Encrypted backups maintained by our infrastructure provider for disaster-recovery purposes are retained briefly in line with standard cloud operational practices and are automatically overwritten.
+              </p>
+              <p className="mt-4">
+                Operational support ticket messages and legal consent records are retained in an anonymized format (disassociated from your identity) for operational support history and regulatory compliance.
               </p>
             </section>
 
